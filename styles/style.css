@@ -1,0 +1,51 @@
+.page {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #F8F5F2;
+  font-family: 'Inter', sans-serif;
+  color: #3C2F2D;
+  line-height: 1.5;
+}
+
+.header {
+  height: 100px; /* УДАЛИТЬ */
+  background-color: MediumSpringGreen;
+}
+
+.content {
+  
+}
+
+.section {
+
+}
+
+.about {
+  height: 100px; /* УДАЛИТЬ */
+  background-color: PaleGreen;
+}
+
+.gallery {
+  height: 100px; /* УДАЛИТЬ */
+  background-color: Aquamarine;
+}
+
+.process {
+  height: 100px; /* УДАЛИТЬ */
+  background-color: MediumSeaGreen;
+}
+
+.workshops {
+  height: 100px; /* УДАЛИТЬ */
+  background-color: LightSkyBlue;
+}
+
+.contacts {
+  height: 100px; /* УДАЛИТЬ */
+  background-color: CornflowerBlue;
+}
+
+.footer {
+  height: 100px; /* УДАЛИТЬ */
+  background-color: MediumSlateBlue;
+}
