@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>С днем рождения, хлебобулочный завод!</title>
-    <link rel="icon" href="favicon.ico" />   <!-- СКОРРЕКТИРОВАТЬ ССЫЛКУ -->
-    <link rel="icon" href="favicon.ico" sizes="any" />   <!-- СКОРРЕКТИРОВАТЬ ССЫЛКУ -->
-    <link rel="icon" href="icon.svg" type="image/svg+xml" />   <!-- СКОРРЕКТИРОВАТЬ ССЫЛКУ -->
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />   <!-- СКОРРЕКТИРОВАТЬ ССЫЛКУ -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <meta name="description" content="Мастерская ручной керамики Гончарный Круг. Уникальная керамика для вашего дома, мастер-классы по гончарному делу." />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
@@ -16,25 +16,29 @@
   </head>
   <body class="page">
     <header class="header">
-      <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-        <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-        <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-        <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-        <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
+      <div class="header__images">
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+      </div>
     </header>
     <main class="content">
 
       <section class="section about">
-        
+        <!-- Контент секции about -->
       </section>
 
       <section class="section gallery">
-        <img  class="img_gallery" src="./images/Безымянный.png"/>
-        <img  class="img_gallery" src="./images/leonardo-dicaprio-rick-dalton.gif"/>
+        <div class="gallery__container">
+          <img class="img_gallery" src="./images/Безымянный.png" alt=""/>
+          <img class="img_gallery" src="./images/leonardo-dicaprio-rick-dalton.gif" alt=""/>
+        </div>
       </section>
 
       <section class="section process">
-
+        <!-- Контент секции process -->
       </section>
 
       <section class="section workshops">
@@ -42,7 +46,7 @@
           <h1>Место проведения (стартовая локация)</h1>
           <p>Проспект Культуры, д. 1, г. Санкт-Петербург, 195274</p>
           <div id="map-container"></div>
-      </div>
+        </div>
       
         <!-- Подключаем API Яндекс Карт -->
         <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_ключ&lang=ru_RU" type="text/javascript"></script>
@@ -50,16 +54,18 @@
       </section>
 
       <section class="section contacts">
-
+        <!-- Контент секции contacts -->
       </section>
 
     </main>
     <footer class="footer">
-      <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-      <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-      <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-      <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
-      <img  class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif"/>
+      <div class="footer__images">
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+        <img class="img_about" src="./images/ezgif-7b9a578c8d17cf87.gif" alt=""/>
+      </div>
     </footer>
   </body>
 </html>
